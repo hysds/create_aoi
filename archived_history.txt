@@ -1,0 +1,1376 @@
+commit 95f36cd9246df93607ba4216f162ef8100d1ff4e
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Nov 8 10:33:41 2018 -0800
+
+    skip import of browse product generation
+
+commit b1152e3ceddc700d0d2c18f9bdf21e8bbc744525
+Merge: 81c8219 942ef8f
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Nov 7 14:14:12 2018 -0800
+
+    merge dockerfile changes
+
+commit 81c821906eaa611cb1338741eaeb6b65cf7c672a
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Nov 2 11:05:36 2018 -0700
+
+    removing ariamh dependencies
+
+commit 4118cdf27b9542ff5413c18a5f35ecd211974ad2
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Nov 2 08:18:09 2018 -0700
+
+    Update Dockerfile
+
+commit af2ae3bf3b985d231cf4a3f59cdd721deae2445a
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Sep 25 14:35:06 2018 -0700
+
+    import git oauth as arg
+
+commit a8318cc99d05ee133f719a05a2707af388ea72c9
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Sep 25 13:24:37 2018 -0700
+
+    update docker clone & env
+
+commit a7dbddff4365079dfb9fb460b793e373d0280782
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Sep 25 13:08:53 2018 -0700
+
+    cleanup dockerfile
+
+commit 942ef8ffc4ddf31e357b5be734f8b2a6e25fc8ab
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Mon Sep 24 21:01:49 2018 +0000
+
+    clean up
+
+commit 528db6cb310e1c87dcae4fef92a6f86488b2731f
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Sep 20 17:43:08 2018 -0700
+
+    force utc time on publish
+
+commit 81032e8dd415245bf64e61bce8e08af51fa6195a
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Sep 5 11:45:45 2018 -0700
+
+    use proper dirname
+
+commit b520ae05473e6c93240c3ea155144886537b96ee
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Sep 5 11:29:54 2018 -0700
+
+    add browse and leaflet products
+
+commit e4b1ab7b0a4e98ad168bc53b1b3720d41a539b55
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Aug 30 16:48:31 2018 -0700
+
+    fix dockerfile export
+
+commit 498fb1d56fd7014cf6057f7bf11b680bb8a5ef35
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Aug 30 16:17:02 2018 -0700
+
+    export library path
+
+commit a014428d8f01f2a13d544c6bdb44832e9fefc614
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Aug 30 14:24:12 2018 -0700
+
+    run browse from base image
+
+commit 6b95edb79e447429a531d65e14a7d661c1f5ce63
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Aug 30 10:07:19 2018 -0700
+
+    chance browse clone path
+
+commit 896c60a8a05fab3389b64c4932de88009940d878
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Aug 30 09:58:41 2018 -0700
+
+    add git clone of browse
+
+commit 74a24ecb77e0805c32d4219abd1306ce2d5db10d
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Aug 30 15:44:31 2018 +0000
+
+    update imports & handling of browse
+
+commit 4ec5523c02fe1756b82241c38af87b1ab5645419
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Aug 29 17:06:00 2018 -0700
+
+    FROM gdal docker image
+
+commit fc01d950fd3cf0361517fb4873eaa200d97f6577
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Aug 29 11:24:30 2018 -0700
+
+    update install
+
+commit 0b17161423d69a251a8ecc3bd5cc7010b42c7ed6
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Aug 29 11:20:52 2018 -0700
+
+    install generate_browse_imagery under ops
+
+commit 5eb7760b14cdee7bf2715bb471d55eb5e06e875e
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Aug 29 11:06:44 2018 -0700
+
+    cleanup paths
+
+commit 32a0fb6f2910f76aec7e7e74c24588de1cec4b8e
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Aug 29 10:59:25 2018 -0700
+
+    run from isce/giant docker image for GDAL
+
+commit a7172c9d3f13f2a6dfc0a6d199d2e3ee11e71c98
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Aug 29 10:12:31 2018 -0700
+
+    import arg token
+
+commit 27c2048ef4a84ca7b0ba33a80ffc6d8ee6d26131
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Aug 29 09:39:58 2018 -0700
+
+    another Dockerfile update to pull repo
+
+commit 3af8409da8357b279d425e73a9be8f0e0d1f91d2
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Aug 29 09:33:03 2018 -0700
+
+    update dockerfile
+
+commit 720994ef24319a77313c1b253b5a5387f0043ac7
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Aug 29 09:30:49 2018 -0700
+
+    update dockerfile
+
+commit c9ccc5abe4f026073c9df62ace6a76e534c0d367
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Aug 29 09:26:18 2018 -0700
+
+    update dockerfile
+
+commit cdca630b6b9c325c814017171355bfbadecc2104
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Aug 29 09:21:41 2018 -0700
+
+    add generation of browse for all files
+
+commit 55d03065192d7f18259418a899c7ecac517e6d7a
+Merge: 2d8927e e11cbd2
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Aug 14 10:57:23 2018 -0700
+
+    Merge branch 'simple' of https://github.jpl.nasa.gov/hysds-org/create_aoi into simple
+
+commit 2d8927e9c42e56d67775677db6750d517c845082
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Aug 14 10:56:45 2018 -0700
+
+    add label passthrough in event_metadata
+
+commit e11cbd26938774dad5eacc74f2ab1617d0f1b392
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Mon Jul 2 14:48:14 2018 -0700
+
+    update parsing of additional_metadata parameter
+
+commit fb5fc68069f85cebd4593d09f767573f18a76d5e
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Jun 28 19:00:14 2018 +0000
+
+    update account info in config file
+
+commit 62e7d658ce7d09d0345accf97d7aff2ca337347a
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Mon Jun 25 14:33:28 2018 -0700
+
+    update project to account
+
+commit 02c79317614c279acfaf6768d64db1e7a17f366c
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sat Jun 23 04:57:05 2018 +0000
+
+    update email sender fields
+
+commit dda5e8fbc1b83e3a5bc7cef47ae753c4d1959376
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sat Jun 23 04:47:28 2018 +0000
+
+    email formatting
+
+commit fdc40df598821536b7f573212a9b00a2b194dda5
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sat Jun 23 04:35:55 2018 +0000
+
+    correct print
+
+commit bc399e841db5c7d877df9969199e225bea385292
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sat Jun 23 04:30:04 2018 +0000
+
+    add printing of email params
+
+commit a34e68a5877f455b946f3847a3478c965a4c29e5
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sat Jun 23 04:24:26 2018 +0000
+
+    fix localization
+
+commit 9fbe9643c3ea6bcd06fdbfbd63628679e2e4bd90
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sat Jun 23 04:11:00 2018 +0000
+
+    update localization of browse
+
+commit e97d00716d18e92aebc5dd4553335a39d276b782
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sat Jun 23 03:50:01 2018 +0000
+
+    adding import
+
+commit 9095bcde41c8f9231491a9090bf799e154af7e3d
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sat Jun 23 03:24:34 2018 +0000
+
+    add email parsing for failure emails
+
+commit 8c74375d5ce0c8d865c36382e853fd37a5dc71ee
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sat Jun 23 00:45:54 2018 +0000
+
+    pass required files & copy browse
+
+commit 0c2d0a2f94b3eaa88911ec92fa026356e35f2935
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jun 22 20:42:46 2018 +0000
+
+    avoid dupllicate emails
+
+commit b240e3319a0a7285dc0e7f9bbfd1f0cf89df1424
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jun 22 20:39:01 2018 +0000
+
+    autogenerate addr
+
+commit e7153aa2c1b1c8a0a01c37132fa5e0e1359dd225
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jun 22 19:01:06 2018 +0000
+
+    json dumps coords for readability
+
+commit 55064ba1884ce408260ba5a1f6bffccf2a13819b
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jun 22 18:50:29 2018 +0000
+
+    email params & formatting
+
+commit f0206edde172f943662dda5d06b50b9f41a37509
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jun 22 18:29:33 2018 +0000
+
+    get container ip for smtp
+
+commit ae59edd064d2980eefb23543c7c4e03a7ba1a438
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jun 22 18:19:21 2018 +0000
+
+    roll over email to python smtp
+
+commit 09af8ed5c200aa78924e6c9506a67cf5bf2fc917
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jun 22 17:35:35 2018 +0000
+
+    installing sendmail
+
+commit 9868d50ec848718b05e14578ddb808c122c1854d
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jun 22 17:18:31 2018 +0000
+
+    passthrough of username in email
+
+commit aabdb71d7108a97b9ae3ffcc8a07ec28050c6a79
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jun 22 16:51:27 2018 +0000
+
+    add success/failure creation email
+
+commit 11399537d53307d893a9863ea7eb41bd2b614f0e
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jun 22 08:59:45 2018 -0700
+
+    update parsing of config files
+
+commit 901854d2f2122c622b058957d43fc0650e7782bc
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Jun 21 19:34:11 2018 -0700
+
+    update config
+
+commit f8d66fa738822c5adbaf0216e8159239143b7981
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Jun 21 19:11:53 2018 -0700
+
+    add config
+
+commit 19453409b9e7465ca3cdf2d224dc0dbd65d884a3
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Jun 21 18:53:00 2018 -0700
+
+    update config paths
+
+commit fd560cb86f7c56c565901014f0860f7716f00276
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Jun 21 16:20:09 2018 -0700
+
+    update spec
+
+commit 2f886a61819be0d2f2e4fb640bcfdd007cfd088a
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Jun 21 16:02:11 2018 -0700
+
+    update hysds-io spec
+
+commit 655db9fbda0102eb2ee38f68eb6b1e530c487255
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Jun 21 16:00:58 2018 -0700
+
+    update spec
+
+commit 05d236cb7e624f941a1825107f1eb3345f5c9057
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Jun 21 15:52:34 2018 -0700
+
+    generate aoi only
+
+commit 754b63b3cf0eac7b505fb328c1107494eb4a6e6e
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Mar 6 09:25:48 2018 -0800
+
+    malarout: trying to fix error with submitting jobs
+
+commit 794fd9b67390100ed4479a6cead1b1a91a3bafe3
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon Feb 26 13:58:51 2018 -0800
+
+    malarout: corrected print statement
+
+commit 516479b339c3788532394dd02c4bffd7a13f7c59
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon Feb 26 13:56:55 2018 -0800
+
+    malarout: added to email address to expiration email
+
+commit dd3285b1bdf678b2e08e9fad4f438504407cc751
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon Feb 26 11:52:14 2018 -0800
+
+    malarout: fix to expire AOI cron
+
+commit e7d11a225f5a5516a2e619dde677002ef730636f
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon Feb 26 08:23:21 2018 -0800
+
+    malarout: changed the way params obj is constructed for submit job
+
+commit 17ce89a4e0b2d1629740f8257d82412c3c1f44bc
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Feb 21 13:20:34 2018 -0800
+
+    malarout: corrected dataset tag in submit_job
+
+commit 6cba112e006c5c063e96d872b5f3a3b1e4596f74
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Feb 21 13:09:33 2018 -0800
+
+    malarout: changing query value from type string to JSON obj
+
+commit 5741d68a412e6b665d4157a78c1ea570bb5b6043
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Feb 21 13:06:10 2018 -0800
+
+    malarout: Turned verify to False in POST request
+
+commit 704de1b6ae49429812c03c1394b60b0e993429c2
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Feb 21 12:59:35 2018 -0800
+
+    malarout: corrects params for submit via mozart api
+
+commit eddd4504a60a3bb56a62f28589d340d8914f700a
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Feb 21 12:39:21 2018 -0800
+
+    malarout: fixed json field error in job_params
+
+commit 0d6fd5ae7ecafa906b785472cfa37fb60c679ffa
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Feb 21 12:28:28 2018 -0800
+
+    malarout: working on on-demand job submission
+
+commit a1df30e7e2b9be17b128a6ee8e2d177bf68a3a7d
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jan 30 16:23:27 2018 -0800
+
+    malarout: corrected mega rules creation time
+
+commit 163b0b9abcba952ef0aecbbd449976b667973c63
+Merge: 7ce6547 111c965
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jan 30 11:46:34 2018 -0800
+
+    Merge branch 'master' of https://github.jpl.nasa.gov/hysds-org/create_aoi
+
+commit 7ce6547f8b495ad18746a1d83f1848bab4374ec1
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jan 30 11:45:35 2018 -0800
+
+    malarout: added code for submiting on-demand jobs
+
+commit 111c965148a26d814d5df5858b41d837d513a1ea
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jan 30 18:32:08 2018 +0000
+
+    malarout: tested expired AOI script
+
+commit ae8be72ff81caa1a33390b2483243ba8f0170451
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jan 30 09:24:19 2018 -0800
+
+    malarout: cron to expire AOIs
+
+commit 4df494c91637c46a173b117df852011bca9fc6a8
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon Jan 29 11:36:51 2018 -0800
+
+    corrected parameter list in add_rule() call
+
+commit 4f3429baae5d46870136756294eb0d9b95902fc5
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon Jan 29 10:56:37 2018 -0800
+
+    malarout: updated pdl entrypoint to mega rules
+
+commit b7f31988c1f83e388a737385e5978d6602de5f26
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon Jan 29 10:32:53 2018 -0800
+
+    updated mega-rules to ariamh:release-20180126
+
+commit dc3d4cc80342d302c471552e8992857e567bee76
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Jan 11 12:45:14 2018 -0800
+
+    malarout: fixed dataset tag propogation for COD rules
+
+commit 2068ca87b0863dc6aabbfa5a78a0e00739824966
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Jan 11 10:46:50 2018 -0800
+
+    malarout: pushing out correct tag
+
+commit 1e91de7edaab279cd431606dcc59fc1645555572
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Jan 3 10:06:29 2018 -0800
+
+    malarout: added email rule for cod
+
+commit a1578501e69f8bec567b5070bf0d998f1f0694ee
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jan 2 13:44:50 2018 -0800
+
+    malarout: updated pdl mega rules
+
+commit 9ecc7301a77105fb7d18c406265de044668e5c6f
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jan 2 11:50:14 2018 -0800
+
+    malarout: added comment for manual updates
+
+commit c2d7941088a753d2dbc334f9fb7fbc6cc69ca453
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jan 2 11:06:24 2018 -0800
+
+    malarout: added COD to megarules
+
+commit eadc179b011422a62f7f3bba60d666d1ed66402d
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Sep 20 22:11:14 2017 -0700
+
+    malarout: single rule for SLCP
+
+commit a2e972b0732a0bd5956306bde031e99e3dea020c
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Sep 20 19:31:30 2017 -0700
+
+    malarout: fixed bug in add email rules
+
+commit 94f37685f6fcf9ac931d3d101489866084cad151
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Sep 20 18:25:15 2017 -0700
+
+    malarout: exposing track_number to user in mega-rules
+
+commit 47e7f0c1e0c8d403ae6a8bf1c07301ad183995ce
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Sep 19 15:30:15 2017 -0700
+
+    malarout: changed label for pdl mega rules
+
+commit 236a6bbf3dd26fdb5f4245ee413f28105b12aeaa
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Sep 19 15:18:42 2017 -0700
+
+    mega rules for pdl event
+
+commit ddd6649f7413cd7e92cab622732bd2a92e0c2793
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Sep 15 18:12:44 2017 -0700
+
+    malarout: adjusted params for slcp mrpe
+
+commit a4c40ef989504b31f0917acc8b033cb6295098fe
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon Sep 11 09:26:41 2017 -0700
+
+    malarout: update to latest ariamh version
+
+commit 65f5de9315b8d03e3bcd7c65093643f9437a0edf
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Sun Sep 10 14:36:05 2017 -0700
+
+    malarout: correction in co-event Lar rule
+
+commit 12de16d96e00e5e74caca9998549b81e8b865390
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Sat Sep 9 01:30:32 2017 -0700
+
+    malarout: replace unicode in JSON
+
+commit d288f73a408a109736fed2b01047c7f41ebc5643
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Sep 8 21:44:41 2017 -0700
+
+    malarout: added track number to mega rules
+
+commit af1db678e1bea3819fa83805c856287fe8ff3fab
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Sep 8 20:52:45 2017 -0700
+
+    malarout: bug fix for lar co event JSON
+
+commit be63e7132b8f2f7f1be320b17726e19bed91caf4
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Sep 8 20:22:09 2017 -0700
+
+    malarout: set mode for co-event lar
+
+commit ca47a75d2a3cf68d942154aa4c5959937a7db7b4
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Sep 8 20:11:48 2017 -0700
+
+    malarout: added priority to co-event lar
+
+commit c80c56ad2835ef0d9a3e63d08b5dfcec472d4d44
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Sep 8 19:59:28 2017 -0700
+
+    malarout: corrected variable
+
+commit 0ec8edf345f93a79ad16eb34e188f8279c55704c
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Sep 8 19:46:10 2017 -0700
+
+    malarout: corrected syntax error
+
+commit 5c12412d004e961dfb0d111fc006e58c8abf19ea
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Sep 8 19:33:52 2017 -0700
+
+    malarout: added co-event condition lars
+
+commit efda3657f59876c006735475bd244148f5986b34
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Sep 8 11:08:45 2017 -0700
+
+    malarout: fixed bug to match slcp action
+
+commit d29a871900e34101d4348bcb6334c35e0f5babc7
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Sep 8 10:00:27 2017 -0700
+
+    malarout: updated version for ariamh
+
+commit f082eb569456c23c7dd172aba8cb3be3b87f71bd
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Sep 8 09:49:09 2017 -0700
+
+    malarout: updated to latest version of ifg and slcp
+
+commit 3da7b2396fa5c51d9308d8beb3d27a931c2565c0
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Sep 7 16:22:39 2017 -0700
+
+    malarout: assign sling priority based on AOI_type
+
+commit 8387a41eb63eb2554c89b624675dff5a3c9c89a9
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Sep 7 14:08:51 2017 -0700
+
+    malarout: removed pre-event lar rule
+
+commit e1ebeafbfd0711c2005eb412795ba0fe37ecb2d0
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Sep 7 09:59:56 2017 -0700
+
+    malarout: added AOI_type to context
+
+commit 01cd7e74eb61140165cb1f3f5c63607546632afa
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Sep 7 09:01:31 2017 -0700
+
+    malarout: fixed bug for email trigger rule
+
+commit 06f74aaa6cf2759a8d2e64f596347da471a94667
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Sep 5 11:17:47 2017 -0700
+
+    malarout: set sling priority based on event_type
+
+commit fe657290925ea325cb608b415e4d4adffbb187ad
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Sep 5 11:03:51 2017 -0700
+
+    malarout: modified pre and postReferencePairDirection for trigger rules
+
+commit 2c4e0ed7ecaa632d13e04e44346a1cb96569f033
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Aug 10 16:35:14 2017 -0700
+
+    malarout: fixed emailing bugs
+
+commit 6a92704b79db1215e4e013dae73b97317eba9cfe
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Aug 2 09:45:48 2017 -0700
+
+    malarout: bug fixes for trigger rules
+
+commit 562003c7ef965c5721609493963bab5796b3d826
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Aug 1 15:20:15 2017 -0700
+
+    malarout: Improved code
+
+commit 26d07cef41e20be541a873b9539dbf3f7c4f482f
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jul 18 11:30:03 2017 -0700
+
+    malarout: email content update
+
+commit 51f829ada72116775ac463d283dcc60743e0591f
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon Jul 17 15:09:04 2017 -0700
+
+    malarout: updated email notification condition
+
+commit 8b34a36ffa39e7fcda89ec648182f8df45188805
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Jul 13 12:56:01 2017 -0700
+
+    malarout: username extracted from _job.json
+
+commit 059611c38065631f6c4ffd0379ad8713f1272de2
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Jul 13 12:39:08 2017 -0700
+
+    malarout: adding username information to trigger rule
+
+commit 48c57ea40f0c109cefafe6b5dcca4dd3c0459405
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Jul 12 14:50:15 2017 -0700
+
+    malarout: boolean in quotes
+
+commit 44c7f5d6b7968e52a300d307076c5a934f2cc219
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Jul 12 14:12:22 2017 -0700
+
+    malarout: temp baseline placeholder and version update
+
+commit adf927e4efac0c12f5da315acf9022509460b896
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Jul 12 13:48:33 2017 -0700
+
+    malarout: updated to 20170629 release of lar, ifg and slcp
+
+commit 2108d05d88d822bb247a66ee0d54dad6c883df9b
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Jul 12 13:33:59 2017 -0700
+
+    malarout: making img URL optional
+
+commit 7db2f71e9e15bfe0c3bd856e3b78074397ce3259
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Jul 12 12:19:40 2017 -0700
+
+    malarout: added dataset.raw to email rule
+
+commit 238aee3bbbafb2ef104e29b569a5e210aed2e9ff
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Jul 12 12:01:27 2017 -0700
+
+    malarout: added dataset.raw to rules condition
+
+commit 3554456a5cf64f7c85c93003404de9646cbdde9a
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Jul 12 11:31:05 2017 -0700
+
+    malarout: updated queue name for workflows
+
+commit e7a71da4699682fa41dde33948468ed05acab81c
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Jul 12 10:55:17 2017 -0700
+
+    malarout: updated params for ifg and slcp
+
+commit 96ec7b0c6b7ada9c42b765cc73b46f4e417e0c9f
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Jul 12 09:43:47 2017 -0700
+
+    malarout: made priorities integers
+
+commit 5d3fd6d177c95943f276936eeed4b6ba4a5afbf5
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Jul 12 09:25:33 2017 -0700
+
+    malarout: adding dataset_tag to slcp params
+
+commit 8362c6f2ed8e5f802a7578e571d662fd0abcef64
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jul 11 20:35:10 2017 -0700
+
+    malarout: changing keys in trigger rule specs
+
+commit 553537e873fe498a3d025df0fddb0dde1e2a9e4d
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jul 11 17:21:20 2017 -0700
+
+    malarout: changing priority values to int
+
+commit c8975ffe2ca49362263ba234541895af45b71684
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jul 11 16:59:18 2017 -0700
+
+    malarout: changing priority values to int
+
+commit 951b2f79c0bcd0fd521468c7314dd4ec5e0672ce
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jul 11 16:32:36 2017 -0700
+
+    malarout: making UI changes
+
+commit 820018c24960398980cb1a367223b2082fe39ce1
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jul 11 16:30:34 2017 -0700
+
+    malarout: making UI changes
+
+commit 6c924ac80e4ccb596753bafc65eb9dc74e307dce
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jul 11 16:22:14 2017 -0700
+
+    malarout: making UI changes
+
+commit 04bea271458d6fdcd03d1cf4353d8c7b92681504
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jun 13 22:11:09 2017 -0700
+
+    malarout: email on AOI creation
+
+commit da66a834a30dd608bbd2ee1bfd0e0aa4025189f8
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jun 13 20:17:12 2017 -0700
+
+    malarout: edited names of email notification rules
+
+commit dc38f8609632694477bc44851924378a572b0c12
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jun 13 19:13:13 2017 -0700
+
+    malarout: mega rules bug fixes
+
+commit 7d95bd5f72fed80ae6ca6d2d307f57bd4306cabe
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jun 13 01:32:12 2017 -0700
+
+    malarout: added projectName to form
+
+commit 6236376dd325e83326252290a00a79b20dd3b843
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon Jun 12 09:53:08 2017 -0700
+
+    malarout: bug fixed
+
+commit 85402d5af078cb461e9cbf9ae96782885e46fadf
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon Jun 12 05:10:25 2017 -0700
+
+    malarout: mega rules
+
+commit c1c0908379db6a974c9be05dacb601b9d4a740da
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jun 6 11:42:36 2017 -0700
+
+    malarout: correct from values
+
+commit 845ea850a3e427cbb1d07c592f1733deca7b981c
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jun 6 11:34:44 2017 -0700
+
+    malarout: added the boolean values
+
+commit 0adee468b3210e3c69e8cddf61088649c678e8fb
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Jun 6 11:22:55 2017 -0700
+
+    malarout: added mega_rules for UI
+
+commit f4ee657cbdf88c60ea914fef1874465f2fb00fc4
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed May 31 09:19:48 2017 -0700
+
+    malarout: changing from v2.0 to 2.0
+
+commit 4c38eab1d1dc6a841d277043444bed58e34f00e3
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu May 25 17:46:10 2017 -0700
+
+    malarout: removing all None values
+
+commit a52874fe504ccb5294e9e22a7f9a479eef8af40c
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu May 25 16:49:22 2017 -0700
+
+    malarout: edited condition checks for optional fields
+
+commit 270b6b9f549a67aea349293cb41007e5a9fb9cd3
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu May 25 16:23:45 2017 -0700
+
+    malarout: edited condition checks for optional fields
+
+commit 840dad02cc96f68702da4d4a98332842bc117def
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu May 25 16:02:21 2017 -0700
+
+    malarout: endquery condition
+
+commit 780fa4dff2c866bd6970075a5df1dea115c0d4d2
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed May 24 11:16:03 2017 -0700
+
+    malarout: AOI only update
+
+commit d853d6436c8829c95ef47d039d6bc3ff2e2126ab
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed May 3 18:02:55 2017 -0700
+
+    malarout: changing type of sling priority
+
+commit 607ac3f0777746345d02242267a7a91b4104e125
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed May 3 17:33:25 2017 -0700
+
+    malarout: added sling priority to create AOI
+
+commit e82822e48f87b81368a97872d4ac4f093a1c07b4
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed May 3 17:23:48 2017 -0700
+
+    malarout: added sling priority to create AOI
+
+commit be05948bc12adee3667856b1fa6979a754dee9e5
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed May 3 17:14:59 2017 -0700
+
+    malarout: added sling priority to create AOI
+
+commit 4560d942e44b6c272033cd77d62ebb67b0c26e16
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed May 3 11:02:38 2017 -0700
+
+    malarout: exposing event-type to user
+
+commit ff8a58c9eae6dde591b3262c124fa39816aaaec1
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed May 3 10:58:40 2017 -0700
+
+    malarout: correct hysds-io json for create AOI
+
+commit cc4489d183776aa52e81517d66b988d5b0210431
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed May 3 10:53:23 2017 -0700
+
+    malarout: editing name of actions
+
+commit a3d677fe5c743bd75c3cacf94cab796582dc762f
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed May 3 10:50:31 2017 -0700
+
+    malarout: adding Create AOI with no rules
+
+commit 90838065eff25daf059cd51c10cf5f1092660a81
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon May 1 11:19:50 2017 -0700
+
+    malarout: Updated monitor rules with SLCP and LAR rules
+
+commit 37a6d08adaa3c675f4e1e385e3b6c25699b12cc6
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon May 1 10:28:51 2017 -0700
+
+    malarout: create AOI script update
+
+commit 8219be0188106509fa029a5bc2cc819756072fee
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon May 1 10:27:10 2017 -0700
+
+    malarout: fixed version bug for LAR workflow
+
+commit 1cd7a1bda2deec703548402f1b5b3b5fe7ac478e
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon May 1 10:25:25 2017 -0700
+
+    malarout: fixed version bug for LAR workflow
+
+commit e9241205a02d0873170ccc01fb28af4333c83c90
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Apr 26 11:12:23 2017 -0700
+
+    malarout: fixed slcp job spec
+
+commit 0642b0799493f2e3143bd2c0d7cd7edbc23dbf94
+Merge: 90e5b3b 2e75980
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Apr 26 11:05:56 2017 -0700
+
+    Merge branch 'master' of https://github.jpl.nasa.gov/hysds-org/create_aoi
+
+commit 90e5b3b9293be5af9b1f7b02bdbb49867b4d2f89
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Apr 26 11:05:01 2017 -0700
+
+    malarout: updated slcp use case with lar
+
+commit 2e7598087bf5797fa5135e4e7d56c7ec8883981e
+Author: Namrata Malarout <Namrata.Malarout@jpl.nasa.gov>
+Date:   Mon Apr 24 17:42:14 2017 -0700
+
+    Update ifg_rule to work with auto filled coordinates
+
+commit 58a6c41d8cf305397f3c62d829f0375a290dd9af
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Mon Apr 24 18:21:16 2017 +0000
+
+    sync renaming of urgent_response project to urgent-response
+
+commit f41ba907c75d0c84dfd6997180af0eddecf79292
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Apr 21 12:10:08 2017 -0700
+
+    malarout: added email param to slcp for notification
+
+commit a36f9a7c1ff556ee1a2c5501d50adae19301d3dd
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Apr 20 15:43:58 2017 -0700
+
+    malarout: small bug fix in script
+
+commit 2ef65dd74cb056483ad8360eacadff1bc2e759de
+Merge: 66ec310 9987388
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Apr 20 11:00:06 2017 -0700
+
+    Merge branch 'master' of https://github.jpl.nasa.gov/hysds-org/create_aoi
+
+commit 66ec310c8544b02ce4f8e89b47607a799b2193b2
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Apr 20 10:58:57 2017 -0700
+
+    malarout: removed json loads for passthrough
+
+commit 9987388a5248c57d77a373cc08ccdbf8a2dfde3f
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Apr 19 23:46:21 2017 +0000
+
+    malarout: updated specs with version_regex
+
+commit 417d349ca9c722c4daa5e60bb8d69c964884cd41
+Author: M Starch <Michael.D.Starch@jpl.nasa.gov>
+Date:   Wed Apr 19 23:15:33 2017 +0000
+
+    mstarch: fixing email
+
+commit fb6fdc48cfe828865de715881d3846b724304ec2
+Author: Namrata Malarout <Namrata.Malarout@jpl.nasa.gov>
+Date:   Wed Apr 19 15:28:01 2017 -0700
+
+    malarout: corrected substring for workflow version
+
+commit 1f69cfe86d90e4614ab7f73bdcbb3d5851e41302
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Apr 19 14:28:23 2017 -0700
+
+    malarout: added dataset_tag for ifg
+
+commit b23b59235ae462baed835b8d55a5f1d1fac6f86e
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Apr 19 14:26:23 2017 -0700
+
+    malarout: added dataset_tag for ifg
+
+commit 57640ad88131a4acc75ddc88a5c49a74c93e19e2
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Apr 19 13:59:58 2017 -0700
+
+    malarout: added azimuth_looks and range_looks ifg params
+
+commit 47505b2e619290fb0e4319ef62b822662ce32697
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Apr 13 13:38:57 2017 -0700
+
+    malarout: corrected hysds-ios
+
+commit cf97c15f37df0622180facf6c603624ae9a3d4de
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Apr 12 14:48:35 2017 -0700
+
+    malarout: updated with input form fields
+
+commit fbc340326bee0344c1e903ff04a56b46823139c4
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Apr 12 13:15:46 2017 -0700
+
+    malarout: updated with latest ifg and slcp parmas
+
+commit 29baf287425f97848fc4f9329012e29e3e5922f4
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Apr 5 14:40:10 2017 -0700
+
+    malarout: changed admin email id to hysds-ops
+
+commit a2b2cd805d90ef7f4ef7c19b166807f4382b95a7
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Apr 5 14:05:39 2017 -0700
+
+    malarout: added coverageThreshold and email desc
+
+commit fc2f823c582713b6a4b74020cd9eea26b453ffac
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Apr 5 09:17:59 2017 -0700
+
+    malarout: not executing Redis commands
+
+commit de1d01f1bdbadcfe2d3bda197b72bf884d143a83
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Apr 4 17:38:20 2017 -0700
+
+    malarout: Correct or condition in script
+
+commit 7495fdcac804e297315f51465c454cd4c52ac9d9
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Apr 4 16:55:03 2017 -0700
+
+    malarout: Added missing code for coherence rule
+
+commit 58c424b6fb57dd310a3f03c99bec9d5f05d8aa29
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon Apr 3 11:33:16 2017 -0700
+
+    malarout: Added templates for coherence pairs
+
+commit b7ec230a058f5e8dcbf5e862e866eb37683addd3
+Author: malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Mar 30 00:57:30 2017 +0000
+
+    malarout: tested event response updates
+
+commit 6a48a87609352eb7e9affe8dda04c8f1cae8b4fe
+Author: malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Mar 29 20:52:17 2017 +0000
+
+    log message for rule generation query
+
+commit 9c616ba53908df2689d86360aa04e15b1203181e
+Author: malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Mar 29 20:41:21 2017 +0000
+
+    fixed lambda
+
+commit 8aa016a83ea8e5367576aeb6c62b16f85c5cf502
+Author: malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Mar 29 20:04:29 2017 +0000
+
+    malarout: fixed required_queues
+
+commit 5d4361d09a2e3d2b1b1a65f01f581d6b61203120
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Mar 29 12:55:32 2017 -0700
+
+    malarout: adding minMatch to tasks
+
+commit 675c6e31c7b30129565f5345d87c5c7ed9a09057
+Merge: 647f3b5 ac31531
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Mar 29 11:11:13 2017 -0700
+
+    Merge branch 'master' of https://github.jpl.nasa.gov/hysds-org/create_aoi
+
+commit 647f3b5b4c652676130aca0b6beb9ce5ada06ecf
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Mar 29 11:10:03 2017 -0700
+
+    log fixes
+
+commit ac31531e09295be76e25d61609d688c95350a4a4
+Author: Namrata Malarout <Namrata.Malarout@jpl.nasa.gov>
+Date:   Wed Mar 29 10:59:17 2017 -0700
+
+    changed type from envelope to polygon
+
+commit 76854cc5425ac2c27a527844e6502064f7a2f52a
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Mar 29 10:38:30 2017 -0700
+
+    malarout: added lamda for img
+
+commit 018ed7f2369ffcaa6486c0740302745428ef267c
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Mar 22 16:58:13 2017 -0700
+
+    malarout: latest create AOI for monitoring code
+
+commit 5ad079afacdcc2ecb0560729a27669bfb553208e
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Mar 22 12:15:57 2017 -0700
+
+    malarout: changed to correct job spec url in add_user_rules
+
+commit f0d0422b3ac4bdf6a7f60f763b9e7174b9295a30
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Mar 22 11:38:53 2017 -0700
+
+    malarout: changed mozart url in add_user_rules
+
+commit 9dc69e0ec8cd0b946e8b63448f2f7403cd0ee11b
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Mar 22 11:21:04 2017 -0700
+
+    malarout: changed queue for tasks
+
+commit ffe369dfb251c2b646f0d5b46bb74ffad8cac064
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Mar 22 09:46:52 2017 -0700
+
+    malarout: fixed add_user_rule and exposed start and end time in monitor rules
+
+commit 030bfc953fea4f3f057d931c3f5a7ae038c824bf
+Merge: 2cb1ca0 fa3606f
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Wed Mar 22 00:43:47 2017 +0000
+
+    Merge branch 'master' of https://github.jpl.nasa.gov/hysds-org/create_aoi
+
+commit fa3606f735bf54b453183eeaa44857680ec358bd
+Author: Namrata Malarout <Namrata.Malarout@jpl.nasa.gov>
+Date:   Tue Mar 21 15:17:54 2017 -0700
+
+    malarout: Matched number of parameters in get_dataset_file
+
+commit 2cb1ca06552814e9999b7069f57104b683ab145e
+Author: M Starch <Michael.D.Starch@jpl.nasa.gov>
+Date:   Tue Mar 21 22:06:32 2017 +0000
+
+    mstarch: fixing 2 digit positional bash arguments
+
+commit 9685c58fbdb3a86a2ac6562d5423b0ad26b2b795
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Tue Mar 21 21:35:34 2017 +0000
+
+    mstarch: printing out more info
+
+commit 792167010e33dbb944ea045a59383aba05391897
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Mar 21 13:43:09 2017 -0700
+
+    malarout: removing space in 'not specified'
+
+commit 88c54d726e29a0b59276a18818c4165db5400281
+Author: Malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Tue Mar 21 11:47:46 2017 -0700
+
+    malarout: changed the required queue for the tasks
+
+commit d5a096c7a1d0b905e3ec6ed9db111b271937ef0f
+Author: Namrata Malarout <Namrata.Malarout@jpl.nasa.gov>
+Date:   Tue Mar 21 11:19:32 2017 -0700
+
+    Fixed hysds-io coherence pair
+
+commit 6682c457f26b769707aa3c568d6d62166fe0fa22
+Author: Namrata Malarout <Namrata.Malarout@jpl.nasa.gov>
+Date:   Tue Mar 21 11:13:39 2017 -0700
+
+    Update to hysds-io for grfn-ops (temporary)
+
+commit 87815897b60508c744c7ca05a89b6484012cd464
+Author: Namrata Malarout <Namrata.Malarout@jpl.nasa.gov>
+Date:   Tue Mar 21 11:13:09 2017 -0700
+
+    Update to hysds-io for grfn-ops (temporary)
+
+commit 9cd641130fe3be11947fdd85d5ba7f360bcd3ad2
+Author: Namrata Malarout <Namrata.Malarout@jpl.nasa.gov>
+Date:   Tue Mar 21 11:12:16 2017 -0700
+
+    Update to hysds-io for grfn-ops (temporary)
+
+commit c920bc504457501860883bd5623aa31c43a95f61
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Wed Mar 15 23:07:53 2017 +0000
+
+    malarout: got rid of unnecessary imports
+
+commit 3b597e2c1502d0eeafd561a72b7fafeab20a1525
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Wed Mar 15 21:55:07 2017 +0000
+
+    typo and error fixes
+
+commit 4c622fc4b7d8e658fec4ed6b4a7db9846ab3fa04
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Wed Mar 15 18:25:27 2017 +0000
+
+    malarout: Updated pge version in Dockerfile
+
+commit 6b7c3d6225cf5693975953661137d0de0fc95dcc
+Merge: b07e0de dcb9b4d
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Wed Mar 15 18:12:50 2017 +0000
+
+    malarout: resolving merge conflicts
+
+commit b07e0de060c6991588c6196b92da3305ce0761c2
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Wed Mar 15 18:02:46 2017 +0000
+
+    malarout: Updated based on specs in GitHub tickets
+
+commit 7b6c909ede7876d5decf092e803fcaf28182d4bf
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Wed Mar 15 14:57:10 2017 +0000
+
+    malarout: Updated use cases
+
+commit dcb9b4db4a56d3748244caa329a26d2838a2b4c8
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Sun Mar 12 23:28:27 2017 +0000
+
+    set absolute path to templates
+
+commit c40379ae5b52338d6487a07d0b3fbeeb50d4d1b0
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Sun Mar 12 23:17:47 2017 +0000
+
+    make scripts executable
+
+commit b60e49da602652976223dc58436fcea884a808c1
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Sun Mar 12 23:08:41 2017 +0000
+
+    copy create_aoi to docker image with correct casing
+
+commit 3b0ffded1d735dcfdebbae85a4cfc7bf9640c45f
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Sun Mar 12 22:56:05 2017 +0000
+
+    replace lightweight-jobs with create_aoi
+
+commit 463e6a672e52913e3aa1cf75ac232998167ab15c
+Author: malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Mon Feb 27 22:25:34 2017 +0000
+
+    added log messages and fixed some errors
+
+commit bf6bcfe713f890f88092b949703e354747d38dfd
+Author: malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Thu Feb 23 18:34:57 2017 +0000
+
+    malarout: reimplemented the Tosca add_user_rules service
+
+commit 11e60d695c7a97d3d1c112aaea601fd542cb3d18
+Author: malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Feb 22 21:59:27 2017 +0000
+
+    malarout: fixed hysds.io spec for create AOI
+
+commit a8595e169d5278b886f7d80a4734f5ea429fa2bb
+Author: malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Feb 22 21:54:43 2017 +0000
+
+    malarout: fixed invalid JSONs in specs
+
+commit caa4c027d94a26d3e78fcc5d166250b7d660afc3
+Author: malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Feb 22 21:40:58 2017 +0000
+
+    malarout: added 3 use cases for create AOI
+
+commit 5a83f219b746d1fe3dc984f6ad76b086b366af62
+Author: malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Feb 17 02:53:34 2017 +0000
+
+    malarout: added event type
+
+commit 9477cd17601e5921775c02aa18933cfc036d7717
+Author: malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Fri Feb 17 00:51:33 2017 +0000
+
+    Modified met.json and datasets.json to latest version
+
+commit 1f4be27f05d608da6c44b2be93bc7999836c28db
+Author: malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Feb 15 22:49:20 2017 +0000
+
+    malarout: added starttime and endtime to dataset.json
+
+commit 74d1a458f52d875512a576062b93f614281d350d
+Merge: 7a23973 7205b72
+Author: malarout <namrata.malarout@jpl.nasa.gov>
+Date:   Wed Feb 15 20:02:14 2017 +0000
+
+    Merge branch 'master' of https://github.jpl.nasa.gov/hysds-org/create_AOI
+
+commit 7a23973ce6c07451afcb00155bef44f93f26f49c
+Author: M Starch <Michael.D.Starch@jpl.nasa.gov>
+Date:   Wed Feb 15 19:57:43 2017 +0000
+
+    Initial code for create AOI
+
+commit 7205b725ffbd88d29f82142278699e904f9e96bb
+Author: Namrata Malarout <Namrata.Malarout@jpl.nasa.gov>
+Date:   Wed Feb 15 11:56:14 2017 -0800
+
+    Initial commit

@@ -1,0 +1,67 @@
+{
+  "label" : "Create Area of Interest",
+  "submission_type":"individual",
+  "component" : "tosca",
+  "allowed_accounts": [ "ops" ],  
+  "params" : [
+    {
+      "name": "name",
+      "from": "submitter",
+      "type": "text"
+    },
+    {
+      "name": "account",
+      "from": "submitter",
+      "type": "enum",
+      "enumerables": ["grfn","ariamh","urgent-response","mem"]
+    },
+    {
+      "name": "type",
+      "from": "submitter",
+      "type": "enum",
+      "enumerables": ["monitoring", "earthquake", "flood", "hurricane", "volcano", "landslide", "other"]
+    },
+    {
+      "name": "geojson_polygon",
+      "from": "submitter",
+      "type": "region",
+      "placeholder": "AOI bounds as a geojson"
+    },
+    {
+      "name": "starttime",
+      "from": "submitter",
+      "type": "text",
+      "placeholder":"beginning of the AOI temporal range"
+    },
+    {
+      "name": "eventtime",
+      "from": "submitter",
+      "type": "text",
+      "optional": true,
+      "placeholder":"time of the event"
+    },
+    {
+      "name": "endtime",
+      "from": "submitter",
+      "type": "text",
+      "placeholder":"end of the AOI temporal range"
+    },
+    {
+      "name": "emails",
+      "from": "submitter",
+      "type": "text",
+      "optional": true,
+      "placeholder": "user1@email.com, user2@email.com"
+    },
+    {
+      "name": "additional_metadata",
+      "from": "submitter",
+      "type": "text",
+      "optional": true
+    },
+    {
+      "name": "username",
+      "from": "passthrough"
+    }
+  ]
+}

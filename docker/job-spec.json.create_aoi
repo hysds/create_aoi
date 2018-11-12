@@ -1,0 +1,55 @@
+{
+  "recommended_queues":["factotum-job_worker-small", "factotum-job_worker-large", "factotum-create_aoi-queue"],
+  "command":"/home/ops/verdi/ops/create_aoi/create_AOI.py",
+  "imported_worker_files": {
+    "/home/ops/.netrc": "/home/ops/.netrc",
+    "/home/ops/.aws": "/home/ops/.aws"
+  },
+  "disk_usage":"3GB",
+  "soft_time_limit": 300,
+  "time_limit": 1200,
+  "params" : [
+    {
+      "name": "name",
+      "destination": "context"
+    },
+    {
+      "name": "account",
+      "destination": "context"
+    },
+    {
+      "name": "type",
+      "destination": "context"
+    },
+    {
+      "name": "geojson_polygon",
+      "destination": "context"
+    },
+    {
+      "name": "starttime",
+      "destination": "context"
+    },
+    {
+      "name": "eventtime",
+      "destination": "context"
+    },
+    {
+      "name": "endtime",
+      "destination": "context"
+    },
+    {
+      "name": "emails",
+      "destination": "context"
+    },
+    {
+      "name": "additional_metadata",
+      "destination": "context"
+    },
+    {
+      "name": "username",
+      "destination": "context"
+    }
+  ]
+}
+
+
