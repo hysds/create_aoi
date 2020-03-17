@@ -4,6 +4,7 @@
 Simple AOI generation script
 '''
 
+from builtins import str
 import os
 import re
 import ast
@@ -39,7 +40,7 @@ def build_aoi_ds(context, ds):
     polygon_geojson = validate_geojson(context['geojson_polygon'])
     starttime = validate_time(context['starttime'])
     endtime = validate_time(context['endtime'])
-    if 'emails' in context.keys():
+    if 'emails' in list(context.keys()):
         email_list = ds['emails']
         additional_emails = parse_emails(context['emails'])
         email_list = list(set(email_list + additional_emails))
@@ -55,15 +56,15 @@ def build_aoi_ds(context, ds):
 
 def build_aoi_met(context, met):
     '''build the aoi met dict'''
-    if 'username' in context.keys():
+    if 'username' in list(context.keys()):
         met['username'] = context['username']
-    if 'eventtime' in context.keys():
+    if 'eventtime' in list(context.keys()):
         event_time = validate_event_time(context['eventtime'])
         if event_time != None:
             met['eventtime'] = event_time
-    if 'image_url' in context.keys():
+    if 'image_url' in list(context.keys()):
         met['image_url'] = context['image_url']
-    if 'additional_metadata' in context.keys():
+    if 'additional_metadata' in list(context.keys()):
         met = parse_additional_metadata(context['additional_metadata'], met)
     return met
 
@@ -80,15 +81,15 @@ def parse_additional_metadata(additional_met, met):
             except:
                 raise Exception('additional metadata cannot be parsed')
     #additional_metadata is a dict
-    if 'user' in additional_met.keys():
+    if 'user' in list(additional_met.keys()):
         met['username'] = additional_met['username']
-    if 'eventtime' in additional_met.keys():
+    if 'eventtime' in list(additional_met.keys()):
         event_time = validate_event_time(additional_met['eventtime'])
         if event_time != None:
             met['eventtime'] = event_time
-    if 'image_url' in additional_met.keys():
+    if 'image_url' in list(additional_met.keys()):
         met['image_url'] = additional_met['image_url']
-    if 'event_metadata' in additional_met.keys():
+    if 'event_metadata' in list(additional_met.keys()):
         met['event_metadata'] = additional_met['event_metadata']
     return met
 
@@ -136,7 +137,7 @@ def validate_geojson(input_geojson):
     #attempt to parse the coordinates to ensure a valid geojson
     try:
         # if it's a full geojson
-        if 'coordinates' in input_geojson.keys():
+        if 'coordinates' in list(input_geojson.keys()):
             polygon = Polygon(input_geojson['coordinates'][0])
             location = mapping(polygon)
             return location
@@ -149,7 +150,7 @@ def validate_geojson(input_geojson):
 
 def parse_emails(emails):
     '''parse the input emails and return them as a list (input can be string or list'''
-    if isinstance(emails, (list,)):
+    if isinstance(emails, list):
         return [validate_email(item) for item in emails]
     email_list = emails.split(',')
     return [validate_email(item) for item in email_list]
@@ -196,7 +197,7 @@ def save_files(ds, met):
     with open(met_path, 'w') as outf:
         json.dump(met, outf)
     #save the browse image if it exists
-    if 'image_url' in met.keys():
+    if 'image_url' in list(met.keys()):
         image_url = met['image_url']
         download_browse(image_url, label)
     else:
@@ -239,10 +240,10 @@ def send_fail_email(error):
     error = str(error).strip('"')
     context = load_json('_context.json')
     emails = []
-    if 'emails' in context.keys():
+    if 'emails' in list(context.keys()):
         emails = parse_emails(context['emails'])
     ds = load_json(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'config/AOI.dataset.json'))
-    if 'emails' in ds.keys():
+    if 'emails' in list(ds.keys()):
         emails = emails + parse_emails(ds['emails'])
     emails = list(set(emails))
     now = str(datetime.now())
@@ -256,7 +257,7 @@ def send_fail_email(error):
     with open(email_config, 'r') as infile:
         body = infile.read()
     user = ''
-    if 'username' in context.keys():
+    if 'username' in list(context.keys()):
         user = context['username']
     body = body.format(now, name, job_id, task_id,  error, user)
     subject = 'Failed: Create AOI {0}'.format(name)
@@ -273,12 +274,12 @@ def send_success_email(ds, met):
     now = str(datetime.now())
     starttime = ds['starttime']
     eventtime = 'None'
-    if 'eventtime' in met.keys():
+    if 'eventtime' in list(met.keys()):
         eventtime = met['eventtime']
     endtime = ds['endtime']
     coordinates = json.dumps(ds['location']['coordinates'])
     user = ''
-    if 'username' in met.keys():
+    if 'username' in list(met.keys()):
         user = met['username']
     emails = ds['emails']
     subject = 'Completed: Create AOI {0}'.format(name)
